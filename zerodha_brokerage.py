@@ -18,7 +18,7 @@ def charges(buy,sell,qty):
 
 
 
-    return(total,brokerage,STT,transaction_charges,gst,sebi_charges,stamp_duty)
+    return(total)
     
 
 
