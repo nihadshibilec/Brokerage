@@ -14,11 +14,11 @@ def charges(buy,sell,qty):
     sebi_charges = sell*qty*0.000001*2
     stamp_duty = buy*qty*0.00003
 
-    total = brokerage + STT + transaction_charges + gst + sebi_charges+stamp_duty
+    total_charges = brokerage + STT + transaction_charges + gst + sebi_charges+stamp_duty
 
 
 
-    return(total)
+    return(total_charges)
     
 
 
